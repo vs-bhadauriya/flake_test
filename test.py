@@ -8,9 +8,3 @@ print('GEEK before clear:', GEEK)
 # Clearing list
 GEEK.clear()
 print('GEEK after clear:', GEEK)
-
-
-
-
-
-
