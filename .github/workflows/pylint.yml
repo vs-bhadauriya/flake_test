@@ -16,4 +16,4 @@ jobs:
         pip install pylint flake8
     - name: Analysing the code
       run: |
-        flake8 --ignore=G004,E501,W503,G200
+        flake8 --ignore=G004,E501,W503,G200 --show-source --statistics
